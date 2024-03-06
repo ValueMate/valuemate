@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Valumate
 
-## Getting Started
+Valumate is a company valuation software built using Next.js for the client-side and Node.js for the server-side.
 
-First, run the development server:
+Getting Started
 
-```bash
+To get Valumate up and running on your machine, make sure you have Node.js and npm installed.
+
+Prerequisites
+Node.js - Make sure you have Node.js installed. You can download and install it from the official Node.js website.
+npm - npm is the package manager for Node.js. It usually comes with the Node.js installation.
+
+Installation
+
+Clone the repository to your local machine:
+git clone https://github.com/your-username/valumate.git
+
+Navigate to the project directory:
+cd valumate
+
+Install dependencies for both the client and server:
+npm install
+cd server
+npm install
+
+Running the Application
+Valumate consists of a client-side application built with Next.js and a server-side application built with Node.js. Both applications need to be started separately.
+
+To start the server, run:
+cd server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The server will start on port 3001 by default. it doesnt matter it runs in the background.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+To start the client application, open a new terminal and navigate to the project directory:
+cd valumate
+Then, run:
+npm run dev
+The client application will start on port 3000 by default.
+Open your web browser and navigate to http://localhost:3000 to access the Valumate application.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Usage
+<-description of how app is supposed to be used->
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
